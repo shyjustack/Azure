@@ -1,4 +1,4 @@
-### Hi There 👋, I'm Shyju Krishnan
+### Hi there 👋, I'm Shyju Krishnan
 
 # How to reach me 
 👇
