@@ -9,9 +9,9 @@
 ------------------------------------------------------
 
 # Azure topics 
-VM Creation 
-Resource group creation 
-AKS
+- VM Creation 
+- Resource group creation 
+- AKS
 
 
 <h3 align="left">Connect with Me:</h3>
