@@ -1,10 +1,9 @@
 ### Hi There 👋, I'm Shyju Krishnan
 
-
-### Feel Free to engage me and Loud Better:
+# How to reach me 
 👇
 
-- 📫 How to reach me: Shyju@live.in.
+- 📧 How to reach me: Shyju@live.in.
 - 📫 How to reach me Only Whatsapp : +971 545961930. 
 
 ------------------------------------------------------
