@@ -1,74 +1,39 @@
-# AZ 801
 ###  Setting up for hands on
-- 
 - This is a follow up from the AZ-800
-- 
 - Introduction to practicing hands on
-- 
 - Downloading Windows Server 2022 ISO
-- 
 - Getting Hyper-V Installed on Windows
-- 
 - Creating a Virtual Switch in Hyper-V
-- 
 - Installing a Windows Server 2022 Virtual Machine
-- 
 - Installing a second Windows Server 2022 Virtual Machine
-- 
 - Downloading the Windows 11 ISO
-- 
 - Installing a Windows 11 virtual machine
-- 
 - Deploy and manage domain controllers on-premises
-- 
 - Joining a server to a domain
-- 
 - Joining Windows 11 to a domain
-- 
 - Creating a trial Microsoft 365/Azure Account
-- 
 - Adding a subscription to your Azure account
-- 
 - Connect your On-Premise ADDS Domain to Azure AD using Azure AD Connect
 ###  Secure Windows Server operating system
-- 
 - Configure and manage exploit protection
-- 
 - Configure and manage Windows Defender Application Control
-- 
 - Activating a free trial for Windows Defender for Endpoint
-- 
 - Configure and manage Windows Defender for Endpoint
-- 
 - Configure and manage Windows Defender Credential Guard
-- 
 - Configure SmartScreen
-- 
 - Implement operating system security by using Group Policies
 ###  Secure a hybrid Active Directory (AD) infrastructure
-- 
 - Configure password policies
-- 
 - Enable password block lists
-- 
 - Manage protected users
-- 
 - Manage account security on a Read-Only Domain Controller (RODC)
-- 
 - Harden domain controllers
-- 
 - Configure authentication policies silos
-- 
 - Restrict access to domain controllers
-- 
 - Configure account security
-- 
 - Manage AD built-in administrative groups
-- 
 - Manage AD delegation
-- 
 - Implement and manage Microsoft Defender for Identity
-- 
 ###  Identify and remediate Windows Server security issues by using Azure services
 - 
 - Monitor on-premises servers & Azure IaaS VMs by using Microsoft Sentinel
@@ -257,13 +222,12 @@
 ### Troubleshoot Active Directory
 - 
 - Restore objects from AD recycle bin
-- 
+
 - Recover Active Directory database using Directory Services Restore Mode
-- 
+
 - Recover SYSVO
-- 
+
 - Troubleshoot Active Directory replication
-- 
+
 - Troubleshoot hybrid authentication issues
-- 
 - Troubleshoot on-premises Active Directory
