@@ -12,17 +12,17 @@ Introduction to Practicing Hands On
 
 - Downloading Windows Server 2022 ISO
 
-Getting Hyper-V Installed on Windows
+- Getting Hyper-V Installed on Windows
 
-Creating a Virtual Switch in Hyper-V
+- Creating a Virtual Switch in Hyper-V
 
-Installing a Windows Server 2022 Virtual Machine
+- Installing a Windows Server 2022 Virtual Machine
 
-Installing a second Windows Server 2022 Virtual Machine
+- Installing a second Windows Server 2022 Virtual Machine
 
-Creating a trial Microsoft 365/Azure Account
+- Creating a trial Microsoft 365/Azure Account
 
-Adding a subscription to your Azure account
+- Adding a subscription to your Azure account
 
 ### Deploy and manage AD DS domain controllers
 
