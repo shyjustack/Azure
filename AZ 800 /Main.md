@@ -10,7 +10,7 @@ Welcome to the course
 
 Introduction to Practicing Hands On
 
-Downloading Windows Server 2022 ISO
+- Downloading Windows Server 2022 ISO
 
 Getting Hyper-V Installed on Windows
 
