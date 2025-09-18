@@ -59,39 +59,25 @@
 - Visualizing floating IP address and load balancing for failover clusters
 ###  Manage failover clustering
 - Implement cluster-aware updating for installing updates on node
-- 
 - Recover a failed cluster node and failover workloads between nodes
-- 
 - Upgrade a node to Windows Server 2022
-- 
 - Manage failover clusters using Windows Admin Center
-- 
+
 ###  Implement and manage Storage Spaces Direct
-- 
+
 - Create and configure storage spaces
-- 
 - Understanding storage spaces direct
-- 
 ###  Manage backup and recovery for Windows Server
-- 
+
 - Back up and restore files and folders to Azure Recovery Services vault
-- 
 - Install and manage Azure Backup Server
-- 
 - Back up and recover using Azure Backup Server
-- 
 - Manage backups in Azure Recovery Services vault
-- 
 - Create a backup policy
-- 
 - Configure backup for Azure Virtual Machines using the built-in backup agent
-- 
 - Recover a VM using temporary snapshots
-- 
 - Recover VMs to new Azure Virtual Machines
-- 
 - Restore a VM
-- 
 ###  Implement disaster recovery by using Azure Site Recovery
 - Understanding Azure Site Recovery
 - Configure Azure Site Recovery networking
@@ -109,21 +95,13 @@
 - Cut over to a new server by using Storage Migration Service (SMS)
 - Basics of using Storage Migration Service to migrate to Azure VMs
 ###  Migrate on-premises servers to Azure
-- 
 - Overview of Azure Migration
-- 
 - Configure an Azure Migration Project
-- 
 - Installing an Azure Migration appliance virtual machine
-- 
 - Perform an Azure Migration discovery using a Migration appliance
-- 
 - Creating an assessment using Azure Migration
-- 
 - Removing AD from a DC in order to perform migration
-- 
 - Migrate by using Azure Migrate
-- 
 ###  Migrate workloads from previous versions to Windows Server 2022, IIS workloads, & AD DS
 - Understanding migration of IIS, Hyper-V, RDS, DHCP, and print services
 - Installing the Windows Server Migration tool
