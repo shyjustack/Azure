@@ -1,1 +1,7 @@
-### AZ 800 
+# AZ 800 
+
+## TOPICS COVERED INCLUDING HANDS ON LECTURE AND PRACTICE TUTORIALS:
+
+### Introduction
+
+Welcome to the course
