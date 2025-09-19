@@ -26,33 +26,31 @@ Introduction to Practicing Hands On
 
 ### Deploy and manage AD DS domain controllers
 
-PowerShell Fundamentals for Server
+- PowerShell Fundamentals for Server
 
-Visualizing Domains, Trees, and Forests
+- isualizing Domains, Trees, and Forests
 
-Visualizing Active Directory Partitions
+- Visualizing Active Directory Partitions
 
-Before proceeding with the next video
+- Deploy and manage domain controllers on-premises
 
-Deploy and manage domain controllers on-premises
+- Joining a server to a domain
 
-Joining a server to a domain
+- Deploy and manage domain controllers in Azure
 
-Deploy and manage domain controllers in Azure
+- Visualizing the purpose of a Read-Only Domain Controller (RODC)
 
-Visualizing the purpose of a Read-Only Domain Controller (RODC)
+- Deploy Read-Only Domain Controllers (RODCs)
 
-Deploy Read-Only Domain Controllers (RODCs)
+- Deploy an additional domain controller to a domain
 
-Deploy an additional domain controller to a domain
+- Remoting with PowerShell
 
-Remoting with PowerShell
+- Using the Integrated Scripting Environment (ISE)
 
-Using the Integrated Scripting Environment (ISE)
+- Visualizing flexible single master operations (FSMO) roles
 
-Visualizing flexible single master operations (FSMO) roles
-
-Troubleshoot flexible single master operations (FSMO) roles
+- Troubleshoot flexible single master operations (FSMO) roles
 
 ### Configure and manage multi-site, multi-domain, and multi-forest environments
 
