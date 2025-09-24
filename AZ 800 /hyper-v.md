@@ -7,11 +7,11 @@
 - Configure Integration Services
 - Understanding Discrete Device Assignment
 - Configure VM Resource Groups
-Configure VM CPU Groups
-Understanding hypervisor scheduling types
-Manage VM Checkpoints
-Implement high availability for virtual machines
-Manage VHD and VHDX files
-Configure Hyper-V network adapter
-Configure NIC teaming
-Configure Hyper-V switch
+- Configure VM CPU Groups
+- Understanding hypervisor scheduling types
+- Manage VM Checkpoints
+- Implement high availability for virtual machines
+- Manage VHD and VHDX files
+- Configure Hyper-V network adapter
+- Configure NIC teaming
+- Configure Hyper-V switch
