@@ -164,13 +164,17 @@ Get-VM -ComputerName "HyperV01" | Where-Object {$_.State -eq 'Off'} | Start-VM
 
 1. Enter-PSSession – Connect to a remote computer interactively
  Connect to a remote server interactively
+```
 Enter-PSSession -ComputerName "Server01" -Credential Domain\AdminUser
+```
 
  Once connected, your prompt changes to indicate the remote session:
  [Server01]: PS C:\Users\AdminUser>
 
 You can now run commands on Server01 as if you were local
+```
 Get-VM
 ```
+
 
 
