@@ -1,12 +1,12 @@
 
 ### Manage Hyper-V and guest virtual machines
-Installing Hyper-V on a server and using nested virtualization
-Enable VM enhanced session mode
-Manage VM using PowerShell Remoting, PowerShell Direct, and HVC.exe
-Configure VM memory
-Configure Integration Services
-Understanding Discrete Device Assignment
-Configure VM Resource Groups
+- Installing Hyper-V on a server and using nested virtualization
+- Enable VM enhanced session mode
+- Manage VM using PowerShell Remoting, PowerShell Direct, and HVC.exe
+- Configure VM memory
+- Configure Integration Services
+- Understanding Discrete Device Assignment
+- Configure VM Resource Groups
 Configure VM CPU Groups
 Understanding hypervisor scheduling types
 Manage VM Checkpoints
