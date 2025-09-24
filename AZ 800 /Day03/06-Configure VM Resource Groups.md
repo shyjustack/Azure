@@ -1,4 +1,5 @@
 #Create Two Collections groups
+
 New-VMGroup -Name "VMGroup1" -GroupType VMCollectionType
 New-VMGroup -Name "VMGroup2" -GroupType VMCollectionType
 
