@@ -2,6 +2,8 @@
 
 Example: VMGroup1 = all domain controllers, VMGroup2 = application servers.
 
+Saves time when performing bulk operations like start, stop, checkpoint, or export.
+
 #Create Two Collections groups
 
 New-VMGroup -Name "VMGroup1" -GroupType VMCollectionType
