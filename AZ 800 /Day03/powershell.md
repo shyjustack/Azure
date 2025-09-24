@@ -152,7 +152,6 @@ Set-VMHost -VirtualMachineMaximumMemory 32GB
 
 ---
 
-### **Tip for AZ-800 exam:**
 
 You should also be comfortable combining these cmdlets with **filters, loops, and remote Hyper-V management**. For example:
 
