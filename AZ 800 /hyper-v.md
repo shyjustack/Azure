@@ -15,3 +15,6 @@
 - Configure Hyper-V network adapter
 - Configure NIC teaming
 - Configure Hyper-V switch
+### Protect virtual machines by using Hyper-V replicas
+- Configuring your Hyper-V host with nested virtualization to support replication
+- Configure and manage Hyper-V replica's
