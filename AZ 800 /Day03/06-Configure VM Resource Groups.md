@@ -1,3 +1,7 @@
+### Instead of managing each VM individually, you can group VMs logically (by department, role, or environment).
+
+Example: VMGroup1 = all domain controllers, VMGroup2 = application servers.
+
 #Create Two Collections groups
 
 New-VMGroup -Name "VMGroup1" -GroupType VMCollectionType
