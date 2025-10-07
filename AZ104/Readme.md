@@ -8,3 +8,6 @@
 - Implement and manage virtual networking (15–20%)
 - Monitor and maintain Azure resources (10–15%)
 
+
+### Sandboxing
+https://learn.microsoft.com/en-us/training/modules/tour-azure-portal/4-exercise-work-with-blades
