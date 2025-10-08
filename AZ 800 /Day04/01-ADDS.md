@@ -1,4 +1,4 @@
-# Active directory Domain Service (AD DS)
+# Active Directory Domain Service (AD DS)
 
 ![image](https://github.com/shyjustack/Azure/blob/main/AZ%20800/AD01.png)
 
