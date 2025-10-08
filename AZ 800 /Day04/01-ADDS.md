@@ -1,6 +1,6 @@
 # Active Directory Domain Service (AD DS)
 
-![image](https://github.com/shyjustack/Azure/blob/main/AZ%20800/AD01.png)
+
 
 ### 🧭 **1. Centralized Management**
 
