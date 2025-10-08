@@ -51,6 +51,6 @@ Active Directory allows administrators to:
 
 ---
 
-Would you like me to include a **simple diagram** showing how AD connects users, computers, and servers?
+
 
 
