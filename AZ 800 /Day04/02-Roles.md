@@ -12,13 +12,14 @@ AD DS uses a multi-master process to replicate data between domain controllers, 
 | **PDC Emulator Master**   | Acts as **Primary Domain Controller for legacy clients**. Handles **password changes, account lockouts, time synchronization, and Group Policy updates**. |
 
 1. Check current FSMO role holders
-``` netdom query fsmo ```
-
+``` netdom query fsmo
+```
 
 2. Transfer a specific role
-   ```
+```
 Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole SchemaMaster
 Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole DomainNamingMaster
 Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole PDCEmulator
 Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole RIDMaster
-Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole InfrastructureM ```
+Move-ADDirectoryServerOperationMasterRole -Identity "NewDCName" -OperationMasterRole InfrastructureM
+```
