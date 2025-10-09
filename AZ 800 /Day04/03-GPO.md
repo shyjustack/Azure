@@ -16,26 +16,14 @@ This GPO should apply no matter what, even if other GPOs try to override it.
 
 You can also use Windows PowerShell cmdlets to manage GPOs and their settings, including those described in the following table.
 
-Cmdlet
+Cmdlet       Description
 
-Description
+New-GPO      Creates a new GPO.
 
-New-GPO
+New-GPLink      Links a GPO to a site, domain, or OU.
 
-Creates a new GPO.
+Get-GPInheritance  Gets Group Policy inheritance information for a specified domain or OU.
 
-New-GPLink
+Set-GPInheritance  Blocks or unblocks inheritance for a specified domain or organizational unit.
 
-Links a GPO to a site, domain, or OU.
-
-Get-GPInheritance
-
-Gets Group Policy inheritance information for a specified domain or OU.
-
-Set-GPInheritance
-
-Blocks or unblocks inheritance for a specified domain or organizational unit.
-
-Get-GPO
-
-Gets one GPO or all the GPOs in a domain.
+Get-GPO     Gets one GPO or all the GPOs in a domain.
