@@ -5,11 +5,11 @@ AD DS uses a multiple-master process to copy data between domain controllers, an
 # What are AD DS operations masters?
 AD DS operation master roles are responsible for performing operations that aren't suitable for a multiple-master model. A domain controller that has one of these roles is an operations master. An operations master role is also known as a Flexible Single Master Operation (FSMO) role. There are five operations master roles:
 
-Schema master
-Domain-naming master
-Infrastructure master
-RID master
-PDC emulator master
+- Schema master
+- Domain-naming master
+- Infrastructure master
+- RID master
+- PDC emulator master
 
 | FSMO Role                 | Function                                                                                                                                                  |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
