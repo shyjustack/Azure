@@ -12,3 +12,30 @@ Additionally, you can set a GPO link to be enforced. To enforce a GPO link, righ
 ![image](https://learn.microsoft.com/en-us/training/wwl-windows-server/implement-group-policy-objects/media/m8-group-policy-6-69631719.png)
 
 This GPO should apply no matter what, even if other GPOs try to override it.
+
+
+You can also use Windows PowerShell cmdlets to manage GPOs and their settings, including those described in the following table.
+
+Cmdlet
+
+Description
+
+New-GPO
+
+Creates a new GPO.
+
+New-GPLink
+
+Links a GPO to a site, domain, or OU.
+
+Get-GPInheritance
+
+Gets Group Policy inheritance information for a specified domain or OU.
+
+Set-GPInheritance
+
+Blocks or unblocks inheritance for a specified domain or organizational unit.
+
+Get-GPO
+
+Gets one GPO or all the GPOs in a domain.
