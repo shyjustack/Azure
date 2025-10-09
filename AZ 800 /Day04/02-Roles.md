@@ -1,7 +1,15 @@
 # Manage AD DS operations masters
-AD DS uses a multi-master process to replicate data between domain controllers, with a built-in conflict resolution algorithm for simultaneous updates. This allows multiple users and applications to make concurrent changes across different controllers, which is essential in any environment with two or more domain controllers. In larger, distributed environments like Contoso’s, some operations still require specific roles on designated domain controllers.
+
+AD DS uses a multiple-master process to copy data between domain controllers, and automatically implements a conflict resolution algorithm that remediates simultaneous, conflicting updates. These provisions allow for a distributed management model, where multiple users and applications can concurrently apply changes to AD DS objects on different domain controllers. Such a model is necessary to support any AD DS environment with two or more domain controllers. However, it's critical for larger, distributed environments such as Contoso's. It's important to remember though, that certain operations can be performed only by a specific role, on a specific domain controller.
 
 # What are AD DS operations masters?
+AD DS operation master roles are responsible for performing operations that aren't suitable for a multiple-master model. A domain controller that has one of these roles is an operations master. An operations master role is also known as a Flexible Single Master Operation (FSMO) role. There are five operations master roles:
+
+Schema master
+Domain-naming master
+Infrastructure master
+RID master
+PDC emulator master
 
 | FSMO Role                 | Function                                                                                                                                                  |
 | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
