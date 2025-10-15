@@ -5,6 +5,7 @@
    * Microsoft Entra Privileged Identity Management
    * Microsoft Identity Manager
    * Advanced security reports and alerts
+     
      **Answer:** **Microsoft Identity Manager**
 
 2. **Which feature is available in Microsoft Entra ID but not natively in AD DS?**
@@ -12,6 +13,7 @@
    * Self-service password reset.
    * Kerberos-based authentication.
    * Group Policy management.
+     
      **Answer:** **Self-service password reset**
 
 3. **What feature does Microsoft Entra ID P2 offer that is crucial for organizations needing to manage temporary and permanent administrative roles?**
@@ -19,6 +21,7 @@
    * Self-service group management
    * Microsoft Entra Privileged Identity Management
    * Conditional Access
+     
      **Answer:** **Microsoft Entra Privileged Identity Management**
 
 4. **A developer is tasked with ensuring that a web application hosted in Azure App Service only allows access to users from a specific Microsoft Entra tenant. How can this be achieved in the Azure portal?**
