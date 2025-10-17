@@ -1,0 +1,42 @@
+# Azure RBAC role 
+
+## Key Role Types:
+ - Owner : Full access including assign roles
+ - contributer: Create and manage resources (no RBAC)
+ - Reader: View-only access
+ - custom: Define specific permission
+
+   
+Scope level: Managment group> Subscription > resource group > Resource
+
+
+## Entra ID Roles (formerly Azure AD Roles)
+Entra id roles are predefind sets of permissions that control access to identify and directoey resources across Microsoft 365 and azure environments
+
+### Some example:
+
+-	Global administrator : full conteol across Enra ID 
+-	User administartor : manage user and groups
+-	Security Reader /Administrator : View or manage Security settings 
+-	Cloud application Administrator : manage app regitrations and configuration
+-	Roles can be assinged to users groups  or service principles.
+
+![Description](https://raw.githubusercontent.com/shyjustack/Azure/main/media/01.png)
+
+
+By default, a Global Administrator in Entra ID has full access to identity management (users, groups, apps) but does not have full access to Azure resources because Azure resource access is controlled separately via subscription roles (Owner, Contributor, etc.).
+
+## Microsoft 365 Roles
+
+Microsoft 365 roles are built-in administrative roles that grant users specific permissions
+to manage services like Exchange, SharePoint, Teams, and compliance features within the
+Microsoft 365 ecosystem.
+### Key Built-in Roles:
+- Global Admin (same as Entra ID): Full access.
+- Exchange Admin: Manage mailboxes, transport rules.
+- SharePoint Admin: Site collections and settings.
+- Teams Admin: Manage Teams policies and configuration.
+- Compliance Admin: Access Purview features (DLP, eDiscovery).
+
+![Description](https://github.com/shyjustack/Azure/blob/main/media/02.png)
+ 
