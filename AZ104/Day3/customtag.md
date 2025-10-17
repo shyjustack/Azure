@@ -1,3 +1,4 @@
+```
 {
   "properties": {
     "displayName": "Add multiple tags to resources",
@@ -81,3 +82,5 @@
   },
   "type": "Microsoft.Authorization/policyDefinitions"
 }
+
+```
