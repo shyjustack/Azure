@@ -15,27 +15,23 @@ Isolated Environment → Each container runs in its own secure environment
 
 ### When to use ACI?
 
-Small applications
-API testing
-Temporary workloads
-Development / QA environments
-Batch jobs / cron jobs
-Microservices that don’t need full orchestration
-Does ACI support only Docker?
+- Small applications
+- API testing
+- Temporary workloads
+- Development / QA environments
+- Batch jobs / cron jobs
+- Microservices that don’t need full orchestration
+### Does ACI support only Docker?
 
 ACI supports any container image that follows the Open Container Initiative (OCI) standard.
 
 This includes:
 
-Docker images
-
-OCI-compliant images
-
-Images built with tools like:
-
-Buildah
-
-Podman
+- Docker images
+- OCI-compliant images
+- Images built with tools like:
+   - Buildah
+   - Podman
 
 Kaniko
 
