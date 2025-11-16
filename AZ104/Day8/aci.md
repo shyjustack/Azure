@@ -3,15 +3,11 @@ Azure Container Instances is a service in Azure that allows you to run Docker co
 
 ### Key Features
 
-Serverless → No VM management required
-
-Fast Deployment → Run containers within seconds
-
-Per-second billing → Pay only for what you use
-
-Scalable → Choose the CPU/RAM you need
-
-Isolated Environment → Each container runs in its own secure environment
+- Serverless → No VM management required
+- Fast Deployment → Run containers within seconds
+- Per-second billing → Pay only for what you use
+- Scalable → Choose the CPU/RAM you need
+- Isolated Environment → Each container runs in its own secure environment
 
 ### When to use ACI?
 
@@ -32,43 +28,29 @@ This includes:
 - Images built with tools like:
    - Buildah
    - Podman
-
-Kaniko
-
-Azure Container Build
-
-GitHub Actions OCI builders
-
-Any OCI-compatible container engine
+   - Kaniko
+   - Azure Container Build
+   - GitHub Actions OCI builders
+   - Any OCI-compatible container engine
 
 So ACI is not limited to Docker, but Docker images are the most commonly used.
 
-📌 What ACI does NOT support
+### 📌 What ACI does NOT support
 
-Virtual machines
+- Virtual machines
+- LXC containers
+- Windows containers (Microsoft removed support in some regions)
+- Kubernetes-style multi-container pods (only limited “container groups”)
+- Privileged containers
+- Stateful storage (only basic file share)
 
-LXC containers
+### 📌 Where can your image come from?
 
-Windows containers (Microsoft removed support in some regions)
-
-Kubernetes-style multi-container pods (only limited “container groups”)
-
-Privileged containers
-
-Stateful storage (only basic file share)
-
-📌 Where can your image come from?
-
-ACI can pull from:
-
-Docker Hub
-
-Azure Container Registry (ACR)
-
-GitHub Container Registry (GHCR)
-
-Google Container Registry (GCR)
-
-Any OCI registry
+- ACI can pull from:
+- Docker Hub
+- Azure Container Registry (ACR)
+- GitHub Container Registry (GHCR)
+- Google Container Registry (GCR)
+- Any OCI registry
 
 
