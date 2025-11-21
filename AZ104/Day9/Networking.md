@@ -11,9 +11,9 @@ This gives easy communication between networks but can be harder to manage if th
  Hub-and-spoke with direct connectivity between spokes means each spoke virtual network is connected to the hub, and the spokes can also directly talk to each other.
 This gives both:
 
-shared access through the hub, and
+- shared access through the hub, and
 
-faster communication directly between the spokes.
+- faster communication directly between the spokes.
 
 ![Topology](https://github.com/shyjustack/Azure/blob/main/media/azure-virtual-network-manager-network-topologies.png?raw=true)
 
