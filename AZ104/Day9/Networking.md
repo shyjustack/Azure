@@ -15,5 +15,7 @@ This gives both:
 
 - faster communication directly between the spokes.
 
+  --------------------------------------------
+
 ![Topology](https://github.com/shyjustack/Azure/blob/main/media/azure-virtual-network-manager-network-topologies.png?raw=true)
 
