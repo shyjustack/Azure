@@ -66,11 +66,11 @@ Configure and manage AD DS replication
 
 Configure a DC as a Global Catalog server
 
-Create and manage AD DS security principals
+## Create and manage AD DS security principals
 
 Visualizing AD DS users and organizational units
 
-### Create and manage AD DS users and organizational units
+Create and manage AD DS users and organizational units
 
 Visualizing groups in AD DS
 
