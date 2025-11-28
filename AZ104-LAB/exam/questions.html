@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Test</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 40px;
+        }
+        .question {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Quiz Exam</h2>
+
+<form id="quizForm">
+
+    <div class="question">
+        <p><b>1. What is the capital of France?</b></p>
+        <input type="radio" name="q1" value="A"> A) London<br>
+        <input type="radio" name="q1" value="B"> B) Paris<br>
+        <input type="radio" name="q1" value="C"> C) Rome<br>
+    </div>
+
+    <div class="question">
+        <p><b>2. Which planet is known as the Red Planet?</b></p>
+        <input type="radio" name="q2" value="A"> A) Earth<br>
+        <input type="radio" name="q2" value="B"> B) Venus<br>
+        <input type="radio" name="q2" value="C"> C) Mars<br>
+    </div>
+
+    <div class="question">
+        <p><b>3. Who developed the Windows OS?</b></p>
+        <input type="radio" name="q3" value="A"> A) Microsoft<br>
+        <input type="radio" name="q3" value="B"> Apple<br>
+        <input type="radio" name="q3" value="C"> Google<br>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Submit</button>
+
+</form>
+
+<div id="result" class="result"></div>
+
+<script>
+function checkAnswers() {
+    const correct = {
+        q1: "B",
+        q2: "C",
+        q3: "A"
+    };
+
+    let total = 3;
+    let score = 0;
+
+    for (let q in correct) {
+        let answer = document.querySelector(`input[name="${q}"]:checked`);
+        if (answer && answer.value === correct[q]) {
+            score++;
+        }
+    }
+
+    document.getElementById("result").innerHTML =
+        "Your Score: " + score + " / " + total;
+}
+</script>
+
+</body>
+</html>
