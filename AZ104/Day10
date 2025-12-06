@@ -1,0 +1,9 @@
+| Feature               | Normal LB (L4)     | Application LB (L7)               |
+| --------------------- | ------------------ | --------------------------------- |
+| OSI Layer             | Layer 4            | Layer 7                           |
+| Routing Based On      | IP + Port          | URL, Hostname, Headers, Cookies   |
+| Protocols             | TCP/UDP            | HTTP/HTTPS/WebSocket              |
+| SSL Termination       | ❌ No               | ✅ Yes                             |
+| Content-Based Routing | ❌ No               | ✅ Yes                             |
+| Best Use              | Non-HTTP workloads | Web apps & APIs                   |
+| Performance           | Very high          | Slightly lower (more intelligent) |
