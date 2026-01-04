@@ -33,5 +33,23 @@ though you may not have any infrastructure in that region.
 they are said to be experiencing some latency. Even though modern fiber optics are fast, it can still
 take time for services to react to customer actions if the service is not local to the customer. Cloud services have the ability deploy resources in datacenters around the globe, thus addressing customer latency issues.
 
+● Predictive cost considerations. The ability for users to predict what costs they will incur for a
+particular cloud service. Costs for individual services are made available, and tools are provided to
+allow you predict what costs a service will incur. You can also perform analysis based on future
+growth.
+
+● Technical skill requirements and considerations. Cloud services can provide and manage hardware
+and software for workloads. Therefore, getting a workload up and running with cloud services demands less technical resources than having IT teams build and maintain physical infrastructure for
+handling the same workload. A user can be expert in the application they want to run without having
+to need skills to build and maintain the underlying hardware and software infrastructure.
+
+● Increased productivity. On-site datacenters typically require a lot of hardware setup (otherwise
+known as racking and stacking), software patching, and other time-consuming IT management chores.
+Cloud computing eliminates the need for many of these tasks, so IT teams can spend time on achieving more important business goals.
+
+● Security. Cloud providers offer a broad set of policies, technologies, controls, and expert technology
+skills that can provide better security than most organizations can otherwise achieve. The result is
+strengthened security, which helps to protect data, apps, and infrastructure from potential threats.
+
 
 
