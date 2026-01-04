@@ -29,7 +29,7 @@ services disaster recovery can happen very quickly with automation and services 
 various regions across the globe which you can access, giving you a presence in those regions even
 though you may not have any infrastructure in that region.
 
-Customer latency capabilities. If customers are experiencing slowness with a particular cloud service,
+● Customer latency capabilities. If customers are experiencing slowness with a particular cloud service,
 they are said to be experiencing some latency. Even though modern fiber optics are fast, it can still
 take time for services to react to customer actions if the service is not local to the customer. Cloud services have the ability deploy resources in datacenters around the globe, thus addressing customer latency issues.
 
