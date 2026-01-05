@@ -96,3 +96,13 @@ You can manage and apply the following resources at resource group level:
 - Access control
 Remember that when you delete a resource group you delete all resources contained within it.
 
+## Considerations
+When creating and placing resources within resource groups there are a few considerations to take into 
+account:
+- Each resource must exist in one, and only one, resource group.
+- A resource group can contain resources that reside in different regions.
+- You decide how you want to allocate resources to resource groups based on what makes the most 
+sense for your organization.
+- You can add or remove a resource to a resource group at any time.
+- You can move a resource from one resource group to another.
+- Resources for an application do not need to exist in the same resource group. However, it is recom
