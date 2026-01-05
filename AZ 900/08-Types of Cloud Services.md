@@ -13,10 +13,7 @@ IaaS has the following characteristics:
 - Cloud provider ownership. The cloud provider is responsible for ensuring that the underlying cloud 
 infrastructure (such as virtual machines, storage and networking) is available for the user.
 
-#### Note: When using IaaS, ensuring that a service is up and running is a shared responsibility: the cloud 
-provider is responsible for ensuring the cloud infrastructure is functioning correctly; the cloud customer is 
-responsible for ensuring the service they are using is configured correctly, is up to date, and is available 
-to their customers. This is referred to as the shared responsibility model.
+#### Note: When using IaaS, ensuring that a service is up and running is a shared responsibility: the cloud provider is responsible for ensuring the cloud infrastructure is functioning correctly; the cloud customer is responsible for ensuring the service they are using is configured correctly, is up to date, and is available to their customers. This is referred to as the shared responsibility model.
 
 Common usage scenarios:
 
