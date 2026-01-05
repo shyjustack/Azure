@@ -82,3 +82,17 @@ updates and patching. Update domains are a logical section of the datacenter, an
 different hardware in the datacenter. This includes power, cooling, and network hardware that 
 supports the physical servers located in server racks. In the event the hardware that supports a server 
 rack becomes unavailable, only that rack of servers would be affected by the outage
+
+### Resource Groups
+A resource group is a unit of management for your resources in Azure. You can think of your resource 
+group as a container that allows you to aggregate and manage all the resources required for your 
+application in a single manageable unit. This allows you to manage the application collectively over its life 
+cycle, rather than manage components individually.
+You can manage and apply the following resources at resource group level:
+- Metering and billing
+- Policies
+- Monitoring and alerts
+- Quotas
+- Access control
+Remember that when you delete a resource group you delete all resources contained within it.
+
