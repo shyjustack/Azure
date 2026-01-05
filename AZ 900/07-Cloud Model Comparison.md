@@ -1,5 +1,5 @@
 ### Public cloud
-- Advantages:
+#### Advantages:
 
 - No CapEx. You don’t have to buy a new server in order to scale.
 - Agility. Applications can be made accessible quickly, and deprovisioned whenever needed.
@@ -10,7 +10,7 @@ OpEx model.
 Organizations can leverage the skills and expertise of the cloud provider to ensure workloads are
 secure, safe, and highly available.
 
-- Disadvantages:
+#### Disadvantages:
 - Security. There may be specific security requirements that cannot be met by using public cloud.
 - Compliance. There may be government policies, industry standards, or legal requirements which
 public clouds cannot meet.
