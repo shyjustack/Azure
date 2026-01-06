@@ -23,3 +23,20 @@ Your storage account name must be unique within Azure. No two storage accounts c
 | **GZRS (Geo-Zone-Redundant Storage)** | Combines ZRS in primary region with GRS to secondary region. | 6 | Zones + Secondary Region | Maximum resiliency for critical workloads. |
 | **RA-GZRS (Read-Access Geo-Zone-Redundant Storage)** | Same as GZRS, with read access to secondary region. | 6 | Zones + Secondary Region | DR + read access for mission-critical apps. |
 
+---------------------------------------------
+
+# Types of Azure Storage Accounts
+
+| **Storage Account Type** | **Description** | **Supported Services** | **Best Use Case** |
+|---------------------------|-----------------|-------------------------|--------------------|
+| **General Purpose v2 (GPv2)** | Most common type, supports all storage services with latest features. | Blob, File, Queue, Table, Disk | Recommended for most workloads. |
+| **General Purpose v1 (GPv1)** | Legacy type, limited features, lower cost for some scenarios. | Blob, File, Queue, Table | Only for backward compatibility. |
+| **Blob Storage Account** | Optimized for storing large amounts of unstructured data. | Blob only | Big data, media files, backups. |
+| **BlockBlobStorage** | Premium performance for block blobs. | Blob only | High-performance workloads. |
+| **FileStorage** | Premium performance for Azure Files. | File only | Lift-and-shift apps needing SMB/NFS shares. |
+| **Premium Storage (Managed Disks)** | High IOPS and low latency for disks. | Disk only | Mission-critical VMs and databases. |
+
+---
+
+
+
