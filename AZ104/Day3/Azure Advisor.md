@@ -1,7 +1,7 @@
 ### Azure Advisor
 Azure Advisor is a free service built into Azure that provides recommendations on high availability, 
 security, performance, and cost. Advisor analyzes your deployed services and looks for ways to improve 
-your environment across those four areas.
+your environment across those areas.
 
 With Azure Advisor, you can:
 -  Get proactive, actionable, and personalized best practices recommendations.
