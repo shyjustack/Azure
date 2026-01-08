@@ -5,7 +5,7 @@ your environment across those four areas.
 
 With Azure Advisor, you can:
 -  Get proactive, actionable, and personalized best practices recommendations.
-- Improve the performance, security, and high availability of your resources as you identify opportunities to reduce your overall Azure costs.
+- Improve the performance, security, and high availability of your resources as you identify opportunities to reduce your overall Azure costs.
 - Get recommendations with proposed actions inline.
 You can access Azure Advisor through the Azure portal. After you sign in to the portal, either select 
 Advisor from the navigation menu, or search for it in the All services menu.
