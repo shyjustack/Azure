@@ -1,4 +1,4 @@
-TASK 1: VirtualBox, Windows Server, AD DS & Entra ID
+### TASK 1: VirtualBox, Windows Server, AD DS & Entra ID
 1️⃣ Install VirtualBox
 
 Download and install VirtualBox:
@@ -35,7 +35,7 @@ Configure synchronization between on-prem AD and Entra ID
 
 Verify that user testuser1 is successfully synced to Entra ID
 
-TASK 2: Azure Storage & Governance
+### TASK 2: Azure Storage & Governance
 1️⃣ Create Storage Accounts
 
 Create two Azure Storage Accounts
