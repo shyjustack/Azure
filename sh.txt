@@ -1,0 +1,1 @@
+New-Cluster -Name "Clustername" -Node "SRV1","SRV2" -StaticAddress "ClusterIP" -ManagementPointNetworkType Singleton
